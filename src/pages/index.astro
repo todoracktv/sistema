@@ -1,0 +1,144 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
+---
+
+<Layout>
+<header class="bg-blue-800 text-white p-4">
+  <div class="header-inner">
+    <h1 class="text-xl sm:text-2xl font-bold">Generador de Cotizaciones</h1>
+    <span class="numero-cotizacion">N° <b id="numero-cotizacion">COT-0001</b></span>
+  </div>
+</header>
+
+<main class="container">
+  <!-- Buscador y filtros -->
+  <section class="toolbar">
+    <input id="buscador" type="search" placeholder="Buscar rack por nombre o característica..." />
+    <select id="filtro-categoria">
+      <option value="">Todas las categorías</option>
+    </select>
+  </section>
+
+  <!-- Lista de productos -->
+  <div id="lista-productos"></div>
+  <p id="sin-resultados" class="hidden sin-resultados">
+    No se encontraron racks con ese filtro.
+  </p>
+
+  <div class="rack-custom">
+    <h3>Rack personalizado</h3>
+
+    <input type="text" id="customNombre" placeholder="Nombre del rack" />
+    <input type="number" id="customPrecio" placeholder="Precio" />
+
+    <label class="flex items-center gap-2 text-sm">
+      <input type="checkbox" id="customIGV" checked />
+      Precio incluye IGV (18%)
+    </label>
+
+    <input
+      type="number"
+      id="customCantidad"
+      placeholder="Cantidad"
+      value="1"
+      min="1"
+    />
+
+    <input type="file" id="customImagen" accept="image/*" />
+
+    <textarea id="customDescripcion" placeholder="Descripción (opcional)"></textarea>
+
+    <button id="btnAgregarCustom" class="btn-primary">Agregar rack personalizado</button>
+  </div>
+
+  <!-- Detalle de la cotización -->
+  <section id="cotizacion">
+    <h2 class="seccion-titulo">Detalle de la cotización</h2>
+
+    <div class="overflow-x-auto">
+      <table class="w-full border-collapse text-sm sm:text-base whitespace-nowrap">
+        <thead>
+          <tr>
+            <th class="px-2 py-1">Producto</th>
+            <th class="px-2 py-1">Descripción</th>
+            <th class="px-2 py-1">Cant.</th>
+            <th class="px-2 py-1">P. Unit</th>
+            <th class="px-2 py-1">Total</th>
+            <th class="px-2 py-1"></th>
+          </tr>
+        </thead>
+        <tbody id="tabla-carrito"></tbody>
+      </table>
+    </div>
+
+    <div class="opciones-cotizacion">
+      <div class="campo">
+        <label for="descuento-valor">Descuento</label>
+        <div class="descuento-grupo">
+          <input id="descuento-valor" type="number" min="0" step="0.01" value="0" />
+          <select id="descuento-tipo">
+            <option value="monto">S/</option>
+            <option value="porcentaje">%</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="campo">
+        <label for="validez">Válido hasta</label>
+        <input id="validez" type="date" />
+      </div>
+
+      <div class="campo">
+        <label for="requiere-adelanto">Forma de pago</label>
+        <label class="flex items-center gap-2 text-sm">
+          <input id="requiere-adelanto" type="checkbox" />
+          Rack fabricado — 50% de adelanto
+        </label>
+      </div>
+
+      <div class="campo hidden" id="campo-dias-entrega">
+        <label for="dias-entrega">Días de entrega</label>
+        <input
+          id="dias-entrega"
+          type="number"
+          min="1"
+          step="1"
+          placeholder="Ej: 15"
+        />
+      </div>
+
+      <div class="campo campo-ancho">
+        <label for="observaciones">Observaciones (opcional)</label>
+        <textarea id="observaciones" placeholder="Notas que aparecerán en el PDF..."></textarea>
+      </div>
+    </div>
+
+    <!-- Totales -->
+    <div class="totales">
+      <p>Subtotal: <span id="subtotal" class="font-semibold">S/ 0.00</span></p>
+      <p>IGV (18%): <span id="igv" class="font-semibold">S/ 0.00</span></p>
+      <p>Descuento: <span id="descuento" class="font-semibold">- S/ 0.00</span></p>
+      <p class="total-linea">Total: <span id="total">S/ 0.00</span></p>
+      <p id="adelanto-linea" class="hidden">50% de adelanto</p>
+    </div>
+
+    <button id="btn-generar" class="btn-primary btn-generar">Generar PDF</button>
+  </section>
+
+  <!-- Historial -->
+  <section id="historial">
+    <div class="historial-cabecera">
+      <h2 class="seccion-titulo">Historial de cotizaciones</h2>
+      <button id="btn-limpiar-historial" class="btn-danger hidden" type="button">
+        Borrar historial
+      </button>
+    </div>
+    <ul id="historial-lista" class="historial-lista"></ul>
+    <p id="historial-vacio" class="sin-resultados">
+      Todavía no has generado ninguna cotización.
+    </p>
+  </section>
+</main>
+
+</Layout>

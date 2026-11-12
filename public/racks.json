@@ -1,0 +1,154 @@
+{
+  "racks": [
+    {
+      "id": 1,
+      "titulo": "Rack fijo 26 a 43 pulgadas",
+      "img": "imagenes/fijos/rackfijo26a43.png",
+      "descripcion_corta": "PESO MAXIMO 30KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nSIN MOVIMIENTO\nKIT DE INSTALACION"
+    },
+    {
+      "id": 2,
+      "titulo": "Rack fijo 40 a 60 pulgadas",
+      "img": "imagenes/fijos/rackfijo40a60.png",
+      "descripcion_corta": "PESO MAXIMO 50KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nSIN MOVIMIENTO\nKIT DE INSTALACION"
+    },
+    {
+      "id": 3,
+      "titulo": "Rack fijo 60 a 75 pulgadas",
+      "img": "imagenes/fijos/rackfijo60a75.png",
+      "descripcion_corta": "PESO MAXIMO 60KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nSIN MOVIMIENTO\nKIT DE INSTALACION"
+    },
+    {
+      "id": 4,
+      "titulo": "Rack fijo 75 a 110 pulgadas",
+      "img": "imagenes/fijos/rackfijo75a110.png",
+      "descripcion_corta": "PESO MAXIMO 100KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nSIN MOVIMIENTO\nKIT DE INSTALACION"
+    },
+    {
+      "id": 5,
+      "titulo": "Rack movil 26 a 43 pulgadas",
+      "img": "imagenes/movil/rackmovil26a43.png",
+      "descripcion_corta": "PESO MAXIMO 30KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL 45°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 6,
+      "titulo": "Rack movil 40 a 60 pulgadas",
+      "img": "imagenes/movil/rackmovil40a60.png",
+      "descripcion_corta": "PESO MAXIMO 50KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL 45°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 7,
+      "titulo": "Rack movil 60 a 75 pulgadas",
+      "img": "imagenes/movil/rackmovil60a75.png",
+      "descripcion_corta": "PESO MAXIMO 60KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL 45°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 8,
+      "titulo": "Rack movil 75 a 110 pulgadas",
+      "img": "imagenes/movil/rackmovil75a110.png",
+      "descripcion_corta": "PESO MAXIMO 80KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL 45°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 9,
+      "titulo": "Rack articulado 26 a 43 pulgadas",
+      "img": "imagenes/articulados/racksarticulados26a43.png",
+      "descripcion_corta": "PESO MAXIMO 30KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 10,
+      "titulo": "Rack articulado 40 a 60 pulgadas",
+      "img": "imagenes/articulados/racksarticulados40a60.png",
+      "descripcion_corta": "PESO MAXIMO 50KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 11,
+      "titulo": "Rack articulado 60 a 75 pulgadas",
+      "img": "imagenes/articulados/racksarticulados60a75.png",
+      "descripcion_corta": "PESO MAXIMO 50KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 12,
+      "titulo": "Rack monitor 13 a 32 pulgadas",
+      "img": "imagenes/monitor/rackmonitor13a32.png",
+      "descripcion_corta": "PESO MAXIMO 7KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 13,
+      "titulo": "Rack 2 monitores 13 a 27 pulgadas",
+      "img": "imagenes/monitor/rack2monitor13a27.png",
+      "descripcion_corta": "PESO MAXIMO 7KG POR MONITOR\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 14,
+      "titulo": "Rack monitor ergonomico 13 a 27 pulgadas",
+      "img": "imagenes/monitor/rackmonitorergo13a27.png",
+      "descripcion_corta": "PESO MAXIMO 7KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 15,
+      "titulo": "Rack 2 monitores ergonomico 13 a 27 pulgadas",
+      "img": "imagenes/monitor/rack2monitorergo13a27.png",
+      "descripcion_corta": "PESO MAXIMO 7KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 90°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 16,
+      "titulo": "Rack para techo 26 a 43 pulgadas",
+      "img": "imagenes/techo/racksdetecho26a43.png",
+      "descripcion_corta": "PESO MAXIMO 30KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 360°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 17,
+      "titulo": "Rack para techo 40 a 60 pulgadas",
+      "img": "imagenes/techo/racksdetecho40a60.png",
+      "descripcion_corta": "PESO MAXIMO 50KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 360°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 18,
+      "titulo": "Rack para techo 60 a 75 pulgadas",
+      "img": "imagenes/techo/racksdetecho60a75.png",
+      "descripcion_corta": "PESO MAXIMO 60KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 360°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 19,
+      "titulo": "Rack para pedestal 26 a 43 pulgadas",
+      "img": "imagenes/pedestal/rackpedestal26a43.png",
+      "descripcion_corta": "PESO MAXIMO 25KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL\nKIT DE INSTALACION"
+    },
+    {
+      "id": 20,
+      "titulo": "Pedestal para Tv de 32 a 75 pulgadas modelo H",
+      "img": "imagenes/pedestal/rackpedestal32a75.png",
+      "descripcion_corta": "PESO MAXIMO 25KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL\nKIT DE INSTALACION"
+    },
+    {
+      "id": 21,
+      "titulo": "Pedestal para Tv de 32 a 75 pulgadas importado",
+      "img": "imagenes/pedestal/rackpedestal32a75importado.png",
+      "descripcion_corta": "PESO MAXIMO 50KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nMOVIL\nKIT DE INSTALACION"
+    },
+    {
+      "id": 22,
+      "titulo": "Rack para Proyector modelo Ganchos",
+      "img": "imagenes/proyector/rackproyectorganchos.png",
+      "descripcion_corta": "PESO MAXIMO 10KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 360°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 23,
+      "titulo": "Rack para Proyector modelo Canastilla",
+      "img": "imagenes/proyector/rackproyectorcanastilla.png",
+      "descripcion_corta": "PESO MAXIMO 30KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 360°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 24,
+      "titulo": "Rack para Pantografo 32 a 55 pulgadas",
+      "img": "imagenes/pantografo/rackpantografo32a55.png",
+      "descripcion_corta": "PESO MAXIMO 80KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 45°\nKIT DE INSTALACION"
+    },
+    {
+      "id": 25,
+      "titulo": "Rack para Pantografo 55 a 90 pulgadas",
+      "img": "imagenes/pantografo/rackpantografo55a90.png",
+      "descripcion_corta": "PESO MAXIMO 30KG\nMATERIAL ACERO CARBONO\nCOLOR NEGRO\nGIRO 45°\nKIT DE INSTALACION"
+    }
+  ]
+}
